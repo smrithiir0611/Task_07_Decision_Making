@@ -1,0 +1,8 @@
+## Task 6 Prompt (WNBA Narrative)
+"Using WNBA team statistics from 2018–2022, generate a narrative that highlights 
+the most improved teams, top performers, and key win-related metrics."
+
+## Planned Task 7 Prompts
+- Ask LLM to generate an initial stakeholder-facing summary of WNBA performance.
+- Ask LLM to provide structured recommendations for coaching/management decisions.
+- Ask LLM to analyze risks, uncertainties, and potential biases in the dataset. 

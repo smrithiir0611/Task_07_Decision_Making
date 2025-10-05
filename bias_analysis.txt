@@ -1,0 +1,11 @@
+# Bias and Ethics Analysis – Task 07
+
+## Fairness and Data Limitations
+The dataset focuses on WNBA team statistics between 2018–2022. While it provides valuable performance metrics, it may not capture context such as player injuries, roster changes, or schedule difficulty. These missing factors can introduce bias in the interpretation of team success or improvement.
+
+## Uncertainty and Model Limitations
+All correlations were generated from descriptive data using a simple Python analysis, so they should not be interpreted as causal. A strong correlation does not guarantee that one factor causes another. External influences like coaching strategy or off-court factors could shift results in later seasons.
+
+## Ethical Reflection
+When using AI models to summarize or interpret data, it’s important to avoid overstating their authority. The LLM-generated narrative was reviewed manually for factual accuracy and adjusted to prevent exaggeration or misrepresentation. The goal was to use AI as a supportive tool for insight generation — not a final decision-maker.
+

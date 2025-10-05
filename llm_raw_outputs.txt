@@ -1,0 +1,27 @@
+Raw Output:
+
+Interviewer: Coach, thanks for joining us. You’ve been analyzing WNBA seasons from 2018 to 2022. To start off, which team made the biggest improvement over that period?
+
+Coach: The numbers show that the Chicago Sky were the most improved. Their win percentage rose from 38.2% in 2018 to 72.2% in 2022, which is about a 34-point improvement. That’s a remarkable jump.
+
+Interviewer: That’s impressive. Which teams came close behind them?
+
+Coach: The Las Vegas Aces improved by almost 30 points, and the New York Liberty improved by around 24 points. Both teams showed consistent growth across the five seasons.
+
+Interviewer: And which teams dominated the league in terms of total wins during this five-year stretch?
+
+Coach: The Connecticut Sun and the Seattle Storm both collected 105 wins, tying them for the top spot. Just behind them were the Las Vegas Aces with 103 wins. These three teams really defined the era.
+
+Interviewer: Let’s talk about the stats. What factors were most strongly linked to winning?
+
+Coach: The strongest positive correlation was wins themselves, at r = 0.902953. Beyond that, teams with higher field goal percentage (r = 0.739), more points per game (r = 0.712), higher three-point FG percentage (r = 0.687), and more field goals made (r = 0.669) were much more likely to win.
+
+Interviewer: And what about the factors that held teams back?
+
+Coach: The strongest negative correlation was losses, at r = –0.903. Beyond that, personal fouls (r = –0.603), turnovers (r = –0.338), offensive rebounds (r = –0.158), and even three-point FG attempts (r = –0.070) were associated with lower win percentages. Mistakes and inefficiency really weighed teams down.
+
+Interviewer: If you were advising a coach today, what would you tell them based on this analysis?
+
+Coach: My advice would be: focus on efficiency and discipline. Work on improving shooting accuracy and scoring while also keeping fouls and turnovers under control. The Chicago Sky and Aces are great examples of how focusing on these areas can translate into big improvements.
+
+Interviewer: Excellent insights, Coach. Thanks for sharing your analysis with us.
