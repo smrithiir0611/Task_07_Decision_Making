@@ -1,15 +1,14 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# TODO: Update with the correct CSV file name if different
 CSV_FILE = "teamstats.csv"
 BASE_YEAR = 2018
 END_YEAR = 2022
 
-# Load dataset
+# Loading dataset
 df = pd.read_csv(CSV_FILE)
 
-# Aggregate duplicate rows (add totals, average percentages)
+# Aggregating the duplicate rows (by adding totals, average percentages)
 agg_funcs = {
     "gp":"sum","w":"sum","l":"sum","win_percent":"mean","ppg":"mean","fgm":"mean","fga":"mean","fg_percent":"mean",
     "threepoint_fgm":"mean","threepoint_fga":"mean","threepoint_fg_percent":"mean","ftm":"mean","fta":"mean","ft_percent":"mean",
@@ -44,7 +43,7 @@ corr = num.corr(numeric_only=True)
 pos_corr = corr["win_percent"].drop(labels=["win_percent"]).sort_values(ascending=False)
 neg_corr = pos_corr.sort_values(ascending=True)
 
-# Print results
+# results to be printed
 print("\n=== MOST IMPROVED (2018 → 2022) ===")
 print(improve.head(3).to_string(index=False))
 
@@ -57,7 +56,7 @@ print(pos_corr.head(5).to_string())
 print("\n=== STRONGEST NEGATIVE CORRELATIONS WITH WIN% ===")
 print(neg_corr.head(5).to_string())
 
-# Save correlation plot
+# Saving the correlation plot
 plt.figure(figsize=(10,8))
 plt.imshow(corr, cmap="coolwarm", interpolation="none")
 plt.colorbar(label="Correlation")
