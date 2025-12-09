@@ -15,7 +15,7 @@ The goal is to take sports data insights and show how they can be used in real d
 
 
 ## How to run
-1. Update the CSV path in `analyse_data.py`.  
+1. Make sure to update the CSV path in `analyse_data.py`.  
 2. Install needed packages:
    ```bash
    pip install pandas numpy matplotlib
